@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Météo.fr - Informations météorologiques</title>
+    <link rel="shortcut icon" href="icon/icons11.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/styles.css">    
+</head>
+<body>
+    <header class="main-content">
+        <h1>Météo MADA.mg</h1>
+        <p >Informations météorologiques et Suivi Climat</p>
+    </header>
+    <nav>
+        <ul>            
+			<li><a href="#img01">Pluie 3jours</a></li>
+			<li><a href="#img02">Pluie 15jours</a></li>
+			<li><a href="#img03">Températures 3jours</a></li>
+			<li><a href="#img04">Températures MIN. 15jours</a></li>
+			<li><a href="#img05">Températures MAX. 15jours</a></li>
+			<li><a href="#img06">Orages</a></li>
+			<li><a href="#img07">Nuages</a></li>
+			<li><a href="#img08">Rafale de vent</a></li>			
+            <li><a href="#img09">SPI</a></li>         		
+			
+        </ul>
+    </nav>
+
+    <div class="main-content">
+        <div class="weather-section" id="child1">
+            <h2 id="img01">Prévision des cumuls de précipitations(mm) 24 heures pour 3 jours  </h2><BR>
+            <div>
+                <img src="./images/RR.png" alt="Pluies journalières">                
+            </div> 
+            <div class="weather-text">
+                <p>Les cartes offrent les prévision des cumuls de précipitations 24 heures de 3 jours.</p> 
+            </div>            
+        </div>
+        <div class="weather-section" id="child2"></div>
+    </div> <br>
+	
+	<div class="main-content">
+        <div class="weather-section" id="child1">
+            <h2 id="img02">Prévision des cumuls de précipitations jusqu' à 15 jours</h2><BR>
+            <div>
+                <img src="./images/RR_PENTAD.png" alt="Pluies journalières">                
+            </div> 
+            <div class="weather-text">
+                <p>Les cartes offrent les prévision des cumuls de précipitations chaque 5 jours </p> 
+            </div>            
+        </div>
+        <div class="weather-section" id="child2"></div>
+    </div> <br>
+
+    <div class="main-content">
+        <div class="weather-section" id="child1">
+            <h2 id="img03">Prévision des Températures Minimales et Maximales (°C)</h2><BR>
+            <div>
+                <img src="./images/TT.png" alt="Températures Max et Min">                
+            </div> 
+            <div class="weather-text">
+                <p>Les cartes présentent les temperatures maximales et minimale en degré Celsius en 24 heures de 3 jours. Pour une bonne presentation visuelle, le fond de carte est coloré suivant
+                    l'altitude.</p> 
+            </div>            
+        </div>
+        <div class="weather-section" id="child2"></div>
+    </div> <br>
+	
+	<div class="main-content">
+        <div class="weather-section" id="child1">
+            <h2 id="img04">Prévision des Températures Minimales 15 jours (°C)</h2><BR>
+            <div>
+                <img src="./images/TMIN_PENTAD.png" alt="Températures Max et Min">                
+            </div> 
+            <div class="weather-text">
+                <p>Les cartes présentent les temperatures maximales et minimale en degré Celsius en 24 heures de 3 jours. Pour une bonne presentation visuelle, le fond de carte est coloré suivant
+                    l'altitude.</p> 
+            </div>            
+        </div>
+        <div class="weather-section" id="child2"></div>
+    </div> <br>
+	
+	<div class="main-content">
+        <div class="weather-section" id="child1">
+            <h2 id="img05">Prévision des Températures Maximales 15 jours (°C)</h2><BR>
+            <div>
+                <img src="./images/TMAX_PENTAD.png" alt="Températures Max et Min">                
+            </div> 
+            <div class="weather-text">
+                <p>Les cartes présentent les temperatures maximales et minimale en degré Celsius en 24 heures pendant 3 jours. Pour une bonne presentation visuelle, le fond de carte est coloré suivant
+                    l'altitude.</p> 
+            </div>            
+        </div>
+        <div class="weather-section" id="child2"></div>
+    </div> <br>
+
+    <div class="main-content">
+        <div class="weather-section" id="child1">
+            <h2 id="img06">Risques d'Activité orageuse</h2><BR>
+            <div>
+                <img src="./images/CAPE.png" alt="Risque orageuse">                
+            </div> 
+            <div class="weather-text">
+                <p>Les carte presentent les risques d'activité orageuse durant 3 jours. Nous prendrons les risques maximales durant
+                    24 heures.</p> 
+            </div>            
+        </div>
+        <div class="weather-section" id="child2"></div>
+    </div> <br>
+
+    <div class="main-content">
+        <div class="weather-section" id="child1">
+            <h2 id="img07">Couverture nuageuse</h2><BR>
+            <div>
+                <img src="./images/TCDC.png" alt="Nébulosité">                
+            </div> 
+            <div class="weather-text">
+                <p>Les cartes offrent la nébilosité ou la couverture nuageuse du ciel tous les trois heures (00,03,06,09,12,15,18,21).
+                    L'unité de mesure utilisé ici est le pourcentage du ciel couvert de nuage, 100% signifie ciel entierement couvert, 
+                    50% la moitié du ciel est couvert de nuage, 0% ciel clair.</p> 
+            </div>            
+        </div>
+        <div class="weather-section" id="child2"></div>
+    </div> <br>
+
+    <div class="main-content">
+        <div class="weather-section" id="child1">
+            <h2 id="img08">Les rafales de Vents</h2><BR>
+            <div>
+                <img src="./images/GUST.png" alt="Gust">                
+            </div> 
+            <div class="weather-text">
+                <p>Les carte presentent les rafales de vent tous les 3 heures (00,03,06,09,12,15,18,21)  durant 3 jours.</p> 
+            </div>            
+        </div>
+        <div class="weather-section" id="child2"></div>
+    </div> <br>
+	
+	<div class="main-content">
+        <div class="weather-section" id="child1">
+            <h2 id="img09">L' Indice de Précipitation Standardisé </h2><BR>
+            <div>
+                <img src="./images/SPI.png" alt="SPI">                
+            </div> 
+            <div class="weather-text">
+                <p>Les carte presentent les SPI 1 mois, 3 mois, 6 mois et 12 mois.</p> 
+            </div>            
+        </div>
+        <div class="weather-section" id="child2"></div>
+    </div> <br>
+
+    <footer>
+        <p class="footer" >&copy; 2024 Météo.fr - Tous droits réservés</p>
+    </footer>
+
+
+
+    <script>
+        // Ajoutons un événement d'écoute pour chaque enfant
+        document.addEventListener('DOMContentLoaded', function() {
+            const children = document.querySelectorAll('.child');
+
+            children.forEach(child => {
+                // Écoute les changements de largeur et hauteur
+                child.addEventListener('resize', function() {
+                    // Mise à jour des dimensions du parent
+                    const parent = this.parentElement;
+                    parent.style.width = `${this.offsetWidth}px`;
+                    parent.style.height = `${this.offsetHeight}px`;
+                });
+            });
+        });
+    </script>
+</body>
+</html>

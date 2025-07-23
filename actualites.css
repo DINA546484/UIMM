@@ -1,0 +1,116 @@
+.images{
+    display: flex;
+    animation-duration: 20s;
+    animation-name: reunions1;
+    animation-iteration-count: infinite;
+}
+@keyframes reunions1{
+    0%{
+        transform: translateX(0px):
+    }
+    20%{
+        transform: translateX(-640px);
+    }
+    50%{
+        transform: translateX(-1280px);
+    }
+    75%{
+        transform: translateX(-1920px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+.photo{
+    width: 640px;
+     overflow: auto;
+     border: 2px solid green;
+}
+
+.actualites{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    background-color: blue;
+    border: 2px solid red;
+    padding-left:  200px;
+    padding: -100px;
+    
+}
+
+
+.images1{
+    display: flex;
+    animation-duration: 20s;
+    animation-name: reunions2;
+    animation-iteration-count: infinite;
+}
+@keyframes reunions2{
+    0%{
+        transform: translateX(0px):
+    }
+    20%{
+        transform: translateX(-640px);
+    }
+    50%{
+        transform: translateX(-1280px);
+    }
+    75%{
+        transform: translateX(-1920px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+.photo1{
+    width: 640px;
+     overflow: auto;
+     border: 2px solid green;
+}
+.actualites1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    background-color: purple;
+    border: 2px solid red;
+}
+
+
+.images2{
+    display: flex;
+    animation-duration: 20s;
+    animation-name: reunions3;
+    animation-iteration-count: infinite;
+}
+@keyframes reunions3{
+    0%{
+        transform: translateX(0px):
+    }
+    20%{
+        transform: translateX(-640px);
+    }
+    50%{
+        transform: translateX(-1280px);
+    }
+    75%{
+        transform: translateX(-1920px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+.photo2{
+    width: 640px;
+     overflow: auto;
+     border: 2px solid green;
+}
+.actualites2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    background-color: yellow;
+    border: 2px solid red;
+}

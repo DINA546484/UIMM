@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title> Formulaires</title>
+            <meta charset="utf-8">
+            <link rel="stylesheet" href="formulaires.css">
+        </head>
+        <body>
+            <section>
+                <h1> Inscriptions</h1>
+                <div class="inscription">
+                    <form method="post" action="tratement.php">
+                        <div class="nom">
+                            <fieldset>
+                                <legend> INFORMATIONS RELATIVES A L'IDENTITE</legend>
+                                <label for="nom"> Nom</label>
+                                <input type="text" id="nom" name="prenom"> <br>
+                                <label for="pass"> Prènom(s)</label>
+                                <input type="password" id="pass" name="pass"> <br>
+                        </div>
+                        <div class="sexe">
+                            Sexe <br>
+                                <input type="radio" id="Homme" name="sexe" value="homme">
+                                <label for= "homme">Un homme </label> <br>
+                                <input type="radio" id="Femme" name="sexe" value="femme">
+                                <label for="femme"> Une femme</label> <br>
+                            Situation matrimoniale <br>
+                        </div>
+                        <div class="situation">
+                            <select name="Situation matrimoniale">
+                                <option value="célibataire"> Celibataire</option>
+                                <option value="marie"> Marié</option>
+                                <option value="veut"> Veu(f)(ve)</option>
+                                <option value="divorcé"> Divorcé</option><br>
+                            </select>
+                        </div>
+                        </fieldset>
+                    <input type="submit" value="Envoyer">
+                </form>
+                </div>
+            </section>
+        </body>
+    </html>

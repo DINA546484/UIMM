@@ -1,0 +1,699 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+    font-family: 'Century Gothic', Calibri, serif;
+    margin: 0px;
+    padding: 0px;
+}
+header{
+ margin-bottom: 20px;
+ margin-left: 0px;
+ margin-top: 20px;
+ border-bottom: 3px solid 	#007FFF;
+}
+h1{
+ display: inline;
+ text-align: center;
+ margin-right: 100px;
+ margin-bottom: 100px;
+ font-size: 45px;
+ padding-bottom: 20px;
+ text-transform: capitalize;
+ color: 	#3232CD;
+}
+header > img{
+ margin-top: 50px;
+ background-color: blue;
+}
+/*Element de navigateur*/
+nav > ul{
+    margin: 0px;
+    padding: 0px;
+}
+ nav > ul::after{
+    content: "";
+    display: block;
+    clear: both;
+ }
+nav > ul >li{
+    float: left;
+    position: relative;
+}
+nav li{
+    list-style: none;
+}
+.sousmenu{
+    display: none;
+}
+
+nav{
+    width: 100%;
+    background-image:linear-gradient(#00008B,#007FFF);
+    
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+}
+nav > ul> li > a{
+    padding: 20px 30px;
+    color: #F5F5DC;
+}
+nav > ul > li:hover a{
+    padding: 15px 30px 20px 30px;
+}
+nav li:hover .sousmenu{
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    padding: 0px;
+    z-index: 1000; 
+    
+}
+/*Element de navigateur*/
+.sousmenu li{
+    border-bottom: 1px solid #7FFF00;
+}
+.sousmenu li a{
+    padding: 15px 30px;
+    font-size: 15px;
+    color: #00000;
+    width: 271px;
+}
+.uimm:hover{
+    border-top: 6px solid #e44d25;
+    background-color: #88860B; 
+}
+.activites:hover{
+    border-top: 6px solid #e44d25;
+    background-color:#A52A2A;
+}
+.partenaires:hover{
+    border-top: 6px solid #e44d25;
+    background-color:#D2691E;
+}
+.opportunites:hover{
+    border-top: 6px solid #e44d25;
+    background-color:#FF7F50;
+}
+.membre:hover{
+    border-top: 6px solid #e44d25;
+    background-color:#FF7F50;
+}
+.contact:hover{
+    border-top: 6px solid #e44d25;
+    background-color:#FF7F50;
+}
+.uimm .sousmenu{
+    background-color: 	#FF00FF;
+}
+.opportunites .sousmenu{
+    background-color: #008B8B;  
+}
+.membre .sousmenu{
+    background-color: #FF0000;
+}
+.sousmenu li:hover a{
+    color: EEE;
+    font-weight: bold;
+}
+.uimm .sousmenu li:hover{
+    background-color: #F0F8FF;
+}
+.opportunites .sousmenu li:hover{
+    background-color: red;
+}
+.membre .sousmenu li:hover{
+    background-color: yellow;
+}
+
+.uimm{
+ margin-left: 300px;
+}
+/*section photo de couverture*/
+.fond{
+    display: block;
+    margin-top: 110px;
+    margin-left: 150px;
+    border: 2px solid #ADEAEA;
+    background-image: url(background.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+    position: relative;
+    margin-left: 0px;
+    margin-top: 180px;
+}
+.rain{
+    background-image: url(rain.png);
+    animation: rain 0.3s linear infinite;
+    width: 100%;
+    height: 480px;
+}
+.fond > h4{
+ color: green;
+ text-align: center;
+}
+/*section photo de couverture*/
+/*Section a propos*/
+.apropo{
+ background-color: #D8D8BF;
+ }
+ .apropo > h3{
+  color: #0000FF;
+  text-align: center;
+  font-size: 30px;
+ }
+ .apropo > p{
+  text-align: center;
+ }
+ .liste1{
+margin-left: 12%;
+ } 
+/*Section a propos*/
+/*section actualites*/
+.actualite{
+ background-color: #FFF;
+}
+.actualite > h3{
+ color: #4D4DFF;
+ text-align: center;
+ font-size: 30px;
+}
+.images{
+    display: flex;
+    animation-duration: 20s;
+    animation-name: reunions1;
+    animation-iteration-count: infinite;
+}
+@keyframes reunions1{
+    0%{
+        transform: translateX(0px):
+    }
+    20%{
+        transform: translateX(-640px);
+    }
+    50%{
+        transform: translateX(-1280px);
+    }
+    75%{
+        transform: translateX(-1920px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+.photo{
+    width: 640px;
+     overflow: auto;
+     border: 2px solid green;
+}
+
+.actualites{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    background-color: #FFF;
+    border: 2px solid #FFF;
+    padding-left:  200px;
+    padding: -100px;
+    height: 500px;
+    
+}
+
+
+.images1{
+    display: flex;
+    animation-duration: 20s;
+    animation-name: reunions2;
+    animation-iteration-count: infinite;
+}
+@keyframes reunions2{
+    0%{
+        transform: translateX(0px):
+    }
+    20%{
+        transform: translateX(-640px);
+    }
+    50%{
+        transform: translateX(-1280px);
+    }
+    75%{
+        transform: translateX(-1920px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+.photo1{
+    width: 640px;
+     overflow: auto;
+     border: 2px solid green;
+}
+.actualites1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    background-color: #FFF;
+    border: 2px solid #FFF;
+    padding-left:  200px;
+    height: 500px;
+}
+
+
+.images2{
+    display: flex;
+    animation-duration: 20s;
+    animation-name: reunions3;
+    animation-iteration-count: infinite;
+}
+@keyframes reunions3{
+    0%{
+        transform: translateX(0px):
+    }
+    20%{
+        transform: translateX(-640px);
+    }
+    50%{
+        transform: translateX(-1280px);
+    }
+    75%{
+        transform: translateX(-1920px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+.photo2{
+    width: 640px;
+     overflow: auto;
+     border: 2px solid green;
+}
+.actualites2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    background-color: #FFF;
+    border: 2px solid #FFF;
+    padding-left:  200px;
+    height: 500px;
+}
+
+/*section actualites*/
+
+/*section valeur*/
+.valeur{
+ height: 300px;
+ width: 100%;
+}
+.valeur h3{
+ color: #4D4DFF;
+ font-size: 40px;
+ text-align: center;
+ font-weight: bold;
+}
+.valeur1{
+    background-color: 	#FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    border-right: 10px solid white;
+    height: 200px;
+    float: left;
+    padding-left: 20px;
+    margin-left: 60px;
+}
+.valeur2{
+    background-color: 	#FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 200px;
+    float: left;
+}
+.valeur1 ol li{
+    list-style: none;
+    width: 300px;
+    font-size: 40px;
+    background: linear-gradient(to right, #00FF7F, yellow);
+    margin: 10px 0px;
+    padding: 20px 30px;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.4s;
+    z-index: 5;
+    font-size: 40px;
+}
+.valeur1 ol li::before{
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 5px;
+    height: 100%;
+    background: #00FFFF;
+    transition: all 0.4s;
+    z-index: -1;
+}
+.valeur1 ol li:hover::before{
+    width: 100%;
+}
+.valeur1 ol li:nth-child(1)::before{
+    background: #FFFF00;
+}
+.valeur1 ol li:nth-child(2)::before{
+    background: #8E236B;
+}
+.valeur1 ol li:hover{
+    transform: translateX(20px);
+}
+
+.valeur2 ol li{
+    list-style: none;
+    width: 300px;
+    font-size: 40px;
+    background: linear-gradient(to right, #00FF7F, yellow);
+    margin: 10px 0px;
+    padding: 20px 30px;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.4s;
+    z-index: 5;
+}
+.valeur2
+ol li::before{
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 5px;
+    height: 100%;
+    background: #FF7F00;
+    transition: all 0.4s;
+    z-index: -1;
+}
+.valeur2 ol li:hover::before{
+    width: 100%;
+}
+.valeur2 ol li:nth-child(1)::before{
+    background: 	#8C1717;
+}
+.valeur2 ol li:nth-child(2)::before{
+    background: #FF1CAE;
+}
+.valeur2 ol li:hover{
+    transform: translateX(20px);
+}
+
+
+/*section valeur*/
+
+/*section secmissionvision*/
+.secmissionvision{
+ background-color: 	##C0D9D9;
+ border: 3px solid 	#3232CD;
+}
+.mission{
+ display: inline-block;
+ color: #000;
+ text-align: justify;
+ font-size: 20px;
+ font-weight: bold;
+ margin-left: 110px;
+ width: 40%;
+}
+.left{
+ float: left;
+ margin-right: 20px;
+ margin-top: 60px;
+ margin-left: -40px;
+ border-bottom-left-radius: 20px;
+ border-bottom-right-radius: 20px;
+}
+.right > h3{
+ color: #0000FF;
+ font-size: 30px;
+ font-weight: bold;
+ text-align: center;
+ text-decoration: underline;
+}
+
+.right2 > h3{
+ color: #0000FF;
+ font-size: 30px;
+ font-weight: bold;
+ text-align: center;
+ text-decoration: underline;
+}
+.right{
+ float: left;
+ display: inline-block;
+ background: radial-gradient(ellipse, #FF2400,yellow,#00FF00);
+}
+.left2{
+ float: left;
+ margin-right: 20px;
+ margin-left: 20px;
+}
+.right2{
+ float: right;
+ background: radial-gradient(ellipse, 	#FF2400,yellow,#00FF00);
+}
+.vision{
+ display: inline-block;
+ width: 40%;
+ display: inline-block;
+ color: #000;
+ text-align: justify;
+ font-size: 15px;
+ font-weight: bold;
+ margin-left: 110px;
+ 
+}
+
+footer{
+    height: 25%;
+    padding-top: 20px;
+    text-align: center;
+    background-color: #1E90FF;
+    background-image:linear-gradient(#007FFF, #00009C);
+    border: 2px solid 	#00009C;
+    width: 100%;
+    margin-top: 200px;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer-col{
+   width: 15%;
+   padding: 0px;
+}
+.footer-col h2{
+	font-size: 20px;
+ font-weight: bold;
+	color: 		#FFF;
+	text-transform: uppercase;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+/* css à ameliorer*/
+.footer-col h2::before{
+	content: '';
+	position: relative;
+	left:10px;
+	bottom: -5px;
+	background-color: red;
+	height: 2px;
+	box-sizing: border-box;
+	width: 130px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 18px;
+	text-transform: capitalize;
+	color: #00FF00;
+	text-decoration: none;
+	font-weight: 400;
+	color: 		#00FF00;
+ font-weight: bold;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 20px;
+ 
+}
+
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+.footer-col{
+ margin-left: 25px;
+}
+/* debut de membres de bureaux*/
+.bureaux{
+    background-color: #E6E8FA;
+    width: 100%;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.2);
+}
+.bureaux{
+    float: left;
+    margin-top: 180px;
+    padding-left: 50px;
+}
+.bureaux h3{
+    text-align: center;
+}
+hr{
+    width: 100px;
+    margin: 10px auto;
+}
+.bureaux1{
+    display: inline-block;
+}
+.bureaux2{
+    margin: 8px;
+}
+.bureaux2 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px;
+}
+.bureaux2 h4,p{
+    text-align: center;
+    margin: 7px;
+}
+.membresdebureau{
+ height: 500px;
+}
+/*fin de burau*/
+/*debut de commisssions*/
+
+.commisions1{
+    background-color: #E6E8FA;
+    width: 100%;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.2);
+}
+.commisions1{
+    float: left;
+    margin-top: 180px;
+    padding-left: 50px;
+}
+.commisions1 h3{
+    text-align: center;
+}
+hr{
+    width: 100px;
+    margin: 10px auto;
+}
+.commissions2{
+    display: inline-block;
+}
+.bureaux2{
+    margin: 8px;
+}
+.commissions3 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 140px;
+}
+.commissions3 h4,p{
+    text-align: center;
+    margin: 7px;
+}
+.commissions{
+ height: 500px;
+}
+/* fin de commisions*/
+
+/* css à ameliorer*/
+/*debut de membres*/
+.photocoverturemembre{
+ background-color: #fff;
+}
+.couverturemembre img{
+ width: 100%;
+ height: 300px;
+ position: relative;
+}
+.text-hover1{
+ position: absolute;
+ left: 20%;
+ top: 40%;
+ transform: translateX(-50% ,-50%);
+ font-size: 50px;
+ text-transform: capitalize;
+ color: 	#00FF7F;;
+ font-weight: bold;
+}
+.contenudemembre{
+ font-weight: bold;
+}
+.president{
+ background-color: green;
+ 
+}
+.presidentleft{
+ float: left;
+ height: 600px;
+}
+ 
+/*fin de membres*/
+
+.recrutement{
+ color: #000000;
+}
+.realisation{
+ text-align: center;
+ color: #7FFF00;
+ border-top: 2px solid 	#00FF7F;
+ font-size: 20px;
+ font-weight: bold;
+}
+.realisation{
+ margin-left: 120px;
+}
+  @keyframes rain{
+    0%{
+        background-position: 0% 0%;
+    }
+    100%{
+        background-position: 20% 100%;
+    }
